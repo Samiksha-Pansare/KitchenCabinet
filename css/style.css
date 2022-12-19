@@ -1,0 +1,235 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+  .navbar {
+    border-bottom: 1px solid #BBBBBB;
+    height: 100px;
+    background-color: #333333;
+  }
+  .container-fluid {
+    background-color: #333333 !important;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d3d3d3;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+  
+.navbar-brand{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+/* Image */
+/* Container holding the image and the text */
+.bgimg{
+  width: 100%;
+  background-image: linear-gradient(rgba(90,90,90, 0.62), rgba(0,0,0, 0.38)),url(../images/Kitchen/13.jpeg);
+  height: 50vw;
+  background-size: cover;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bolder;
+
+}
+.para-cls{
+  font-size: 32px !important;
+  font-weight:bold;
+}
+.home-btm{
+  border-radius: 25%;
+  background-color: #333333 !important;
+  color: #ffffff;
+}
+.home-btm:hover{
+  font-weight: bold;
+  color: #ffffff;
+}
+.get-started-btn {
+  width: 100%;
+  background-color: #333333 !important;
+  color: #ffffff;
+}
+.description{
+  padding: 8px;
+}
+.img-2{
+  width: 100%;
+  background-image: linear-gradient(rgba(90,90,90, 0.62), rgba(0,0,0, 0.38)),url(../images/Kitchen/2.jpeg);
+  height: 50vw;
+  background-size: cover;
+}
+
+/* Footer */
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block; }
+  .ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    position: relative; }
+    .ftco-footer-social li a i {
+      position: absolute;
+      font-size: 20px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .ftco-footer-social li a:hover {
+      color: #fff; }
+
+
+footer {
+  padding: 3em 0; 
+  width: 100vw !important;
+}
+
+.footer-07 {
+  background: #121212; }
+  .footer-07 a {
+    color: #a3de83; }
+  .footer-07 p {
+    color: rgba(255, 255, 255, 0.3); }
+  .footer-07 .footer-heading {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px; }
+    .footer-07 .footer-heading .logo {
+      color: #fff; }
+  .footer-07 .menu {
+    margin-bottom: 30px; }
+    .footer-07 .menu a {
+      color: rgba(255, 255, 255, 0.6);
+      margin: 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+  .footer-07 .ftco-footer-social li a {
+    background: transparent;
+    border: 1px solid #a3de83; }
+
+
+  /* Responsive Media Queries */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) 
+{
+  .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .bgimg{
+    width: 100%;
+    background-image: linear-gradient(rgba(90,90,90, 0.62), rgba(0,0,0, 0.38)),url(../images/Kitchen/2.jpeg);
+    height: 150vw;
+    background-size: cover;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  
+  }
+  .para-cls{
+    font-size: 15px !important;
+    font-weight: 300;
+  }
+  .home-btm{
+    border-radius: 35%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 200px;
+  }
+  .para-cls{
+    display: none;
+  }
+ }
+   /* For tablets: */
+ @media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .bgimg{
+    width: 100%;
+    background-image: linear-gradient(rgba(90,90,90, 0.62), rgba(0,0,0, 0.38)),url(../images/Kitchen/2.jpeg);
+    height: 100vw;
+    background-size: cover;
+  }
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: bolder;
+  
+  }
+}
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+ /* // Extra large devices (large desktops, 1200px and up) */
+ @media screen and (min-width: 1400px) {
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #d3d3d3;
+  }
+  
+
+
+  .nav-link-grow-up::before {
+    height: 0%;
+    width: 100%;
+    bottom: 0px;
+  }
+  
+  .nav-link-grow-up:hover::before {
+    height: 5px;
+  }
+  }
+  /* @media screen and (min-width: 1600px) {
+	.container {
+	  width: 1570px;
+	}
+  }
+  @media screen and (min-width: 1900px) {
+	.container {
+	  width: 1870px;
+	}
+  } */
+@media (min-width: 1900px)
+{
+		
+}
