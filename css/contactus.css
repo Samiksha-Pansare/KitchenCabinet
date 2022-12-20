@@ -75,7 +75,7 @@ input {
 {
     .contact-form{
         margin-top: 150px;
-        width: 300px;
+        width: 300px !important;
     } 
     .contact-form .btnContact {
         width: 200px;

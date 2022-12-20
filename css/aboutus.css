@@ -1,0 +1,103 @@
+.card{
+    border:none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+.mapbox{
+ margin: 60px;
+}
+
+@import url(//fonts.googleapis.com/css?family=Six+Caps|Open+Sans:400,300,600);
+
+body {
+  padding-top: 50px;
+}
+
+h2 {
+  font: 300 33px/40px 'Open Sans', sans-serif;
+  color: #cfd8ee;
+  margin: 0 0 23px;
+}
+h3 {
+  font: 13px/20px 'Open Sans', sans-serif;
+  color: #e7efff;
+  margin: 0 0 6px;
+}
+p {
+  margin-bottom: 24px;
+  font: 13px/20px 'Open Sans', sans-serif;
+}
+
+hr {
+    background-color: #51596d;
+    border: none;
+    height: 1px;
+    margin: 0 0 21px;
+}
+
+.contact {
+  padding: 63px 85px 50px 80px;
+  color: #8391ab;
+  width: 370px;
+  background-color: #14163D;
+  margin: 60px auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* box-shadow */
+}
+.prefix {
+  width: 48px;
+  display: inline-block;
+
+}
+.email {
+  color: #ffffff;
+  margin-left: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.email:hover {
+  color: #cfd8ee;
+  text-decoration: none;
+}
+
+ /* Responsive Media Queries */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) 
+{
+  .contact{
+    width: 300px;
+    padding: 28px;
+  }
+}
+   /* For tablets: */
+ @media only screen and (min-width: 600px) and (max-width: 1023px) {
+ 
+}
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+ /* // Extra large devices (large desktops, 1200px and up) */
+ @media screen and (min-width: 1400px) {
+  
+  }
+  /* @media screen and (min-width: 1600px) {
+	.container {
+	  width: 1570px;
+	}
+  }
+  @media screen and (min-width: 1900px) {
+	.container {
+	  width: 1870px;
+	}
+  } */
+@media (min-width: 1900px)
+{
+		
+}

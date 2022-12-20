@@ -36,6 +36,10 @@ ul.dropdown-menu{
   color: #d3d3d3 !important;
 }
 
+.dropdown-item:hover {
+  color: #d3d3d3 !important;
+  background-color: transparent;
+}
 /* Image */
 /* Container holding the image and the text */
 .bgimg{
@@ -61,8 +65,9 @@ ul.dropdown-menu{
   font-weight:bold;
 }
 .home-btm{
-  border-radius: 25%;
-  background-color: #30415D !important;
+  border-radius: 25px;
+  background-color: rgb(149, 125, 173,0.5);;
+  color: #39014e;
   color: #ffffff;
 }
 .home-btm:hover{
@@ -70,13 +75,18 @@ ul.dropdown-menu{
   color: #ffffff;
 }
 .get-started-btn {
-  width: 100%;
-  background-color: #30415D!important;
-  color: #ffffff;
+  width: 200px;
+  /* background-color: #39014e!important; */
+  border-color: #39014e !important;
+  /* background-color: rgb(149, 125, 173,0.5); */
+  border-width: 2.5px;
+  color: #39014e !important;
+  font-weight: bold;
+  
 }
 .get-started-btn:hover {
-  font-weight: bold;
-  color: #ffffff !important;
+  transform: scale(110%);
+  color: #39014e !important;
 }
 .description{
   padding: 8px;
@@ -87,7 +97,16 @@ ul.dropdown-menu{
   height: 50vw;
   background-size: cover;
 }
-
+.img-home{
+  border-radius: 25px;
+  margin: 20px;
+  width: 80%;
+}
+.paragraph {
+  margin: 15px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
 /* Footer */
 
 .ftco-footer-social li {
